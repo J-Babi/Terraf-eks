@@ -24,7 +24,7 @@ sudo wget https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_linux
 # Export terraform binary path temporally
    export PATH=$PATH:/usr/local/bin
 # Add path permanently for current user.By Exporting path in .bashrc file at end of file.
-   vi .bashrc
+   vi ~/.bashrc
    export PATH="$PATH:/usr/local/bin"
 # Source .bashrc to reflect for current session
    source ~/.bashrc   
